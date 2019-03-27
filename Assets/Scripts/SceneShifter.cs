@@ -17,9 +17,24 @@ public class SceneShifter : MonoBehaviour
         
     }
 
-    public void Play()
+    public void StageOne()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("StageOne");
+    }
+
+    public void StageTwo()
+    {
+        SceneManager.LoadScene("StageTwo");
+    }
+
+    public void StageThree()
+    {
+        SceneManager.LoadScene("StageThree");
+    }
+
+    public void Map()
+    {
+        SceneManager.LoadScene("Map");
     }
 
     public void MainMenu()
